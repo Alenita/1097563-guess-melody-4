@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import App from "./components/app/app.jsx";
 
 const rules = {
-  errorCount: 8
+  errorCount: 3,
 };
 
 ReactDOM.render(
