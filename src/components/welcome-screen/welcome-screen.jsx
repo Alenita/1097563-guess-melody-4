@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 const WelcomeScreen = (props) => {
   const {errorCount, onWelcomeButtonClick} = props;
+
   return <section className="welcome">
     <div className="welcome__logo">
       <img src="img/melody-logo.png" alt="Угадай мелодию" width="186" height="83"/>

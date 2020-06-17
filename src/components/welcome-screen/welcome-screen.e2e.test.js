@@ -7,8 +7,8 @@ Enzyme.configure({
   adapter: new Adapter(),
 });
 
-describe(`Welcomescreen works propely`, () => {
-  it(`WelcomeButton is pressed`, () => {
+describe(`<Welcomescreen /> works properly`, () => {
+  it(`<WelcomeButton /> is pressed`, () => {
     const onWelcomeButtonClick = jest.fn();
 
     const welcomeScreen = shallow(
