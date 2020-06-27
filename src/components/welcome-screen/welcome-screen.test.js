@@ -5,7 +5,7 @@ import renderer from "react-test-renderer";
 it(`Rendering is ok`, () => {
   const tree = renderer
       .create(<WelcomeScreen
-        errorCount={3}
+        errorsCount={3}
         onWelcomeButtonClick={() => {}}
       />)
         .toJSON();

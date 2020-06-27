@@ -13,7 +13,7 @@ describe(`<Welcomescreen /> works properly`, () => {
 
     const welcomeScreen = shallow(
         <WelcomeScreen
-          errorCount={3}
+          errorsCount={3}
           onWelcomeButtonClick={onWelcomeButtonClick}
         />
     );
