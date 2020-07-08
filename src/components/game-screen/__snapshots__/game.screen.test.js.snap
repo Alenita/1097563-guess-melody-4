@@ -46,13 +46,19 @@ exports[`<GameScreen/> component renders correctly with GameType.ARTIST 1`] = `
     >
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
     </div>
   </header>
   <div
@@ -107,13 +113,19 @@ exports[`<GameScreen/> component renders correctly with GameType.GENRE 1`] = `
     >
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
       <div
         className="wrong"
-      />
+      >
+        
+      </div>
     </div>
   </header>
   <div

@@ -44,7 +44,7 @@ class GenreQuestionScreen extends PureComponent {
                     });
                   }}
                 />
-                <label className="game__check" htmlFor={`answer-${i}`}>Отметить</label>
+                <label className="game__check" htmlFor={`answer-${i}`}>Ответить</label>
               </div>
             </div>
           ))}
